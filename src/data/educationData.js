@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Noakhali Government College',
+        institution: 'ZHCET, Aligarh Muslim University',
         course: 'Bachelor Degree',
-        startYear: '2020',
-        endYear: 'Present'
+        startYear: '2017',
+        endYear: '2021'
     },
     {
         id: 2,
-        institution: 'Noakhali Islamia Kamil Madrasah',
-        course: 'Higher Secondary',
-        startYear: '2018',
-        endYear: '2020'
+        institution: 'St. Fidelis College',
+        course: 'Intermediate',
+        startYear: '2015',
+        endYear: '2016'
     },
     {
         id: 3,
-        institution: 'Baitus Saif Islamia Madrasah',
-        course: 'Secondary School',
-        startYear: '2008',
-        endYear: '2018'
+        institution: 'St. Fidelis College',
+        course: 'High School',
+        startYear: '2013',
+        endYear: '2014'
     },
 ]

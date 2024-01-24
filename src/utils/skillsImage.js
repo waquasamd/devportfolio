@@ -74,6 +74,8 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import dotnet from '../assets/png/Microsoft_.NET_logo.png'
+import sqlserver from '../assets/png/microsoft-sql-server-logo-png.png'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +229,10 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case '.net':
+            return dotnet;
+        case 'sql server':
+            return sqlserver;
         default:
             break;
     }

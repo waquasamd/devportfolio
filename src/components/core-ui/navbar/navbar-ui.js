@@ -17,7 +17,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
         <div className='navbar'>
             <div className='navbar--container'>
                 <h1 style={{ color: theme.primary }}>
-                    {shortname(headerData.name)}
+                    {(headerData.name)}
                 </h1>
 
                 <IoMenuSharp
@@ -58,7 +58,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                 </div>
                 <br />
 
-                <div onClick={handleDrawerClose}>
+                <div onClick={handleDrawerClose} style={{display:"contents"}}> 
                     <div className='navLink--container'>
                         <Fade left>
                             <NavLink
@@ -127,7 +127,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                             </div>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#blog'
                                 smooth={true}
@@ -143,7 +143,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink

@@ -10,9 +10,11 @@ import Education from '../../components/core-ui/education/education'
 import Experience from '../../components/core-ui/experience/experience'
 import Skills from '../../components/core-ui/skills/skills'
 import { headerData } from '../../data/headerData'
+import Fade from 'react-reveal/Fade';
 
 function HomePage() {
     return (
+        <Fade bottom>
         <div>
             <Helmet>
                 <title>{headerData.name} - Porfolio</title>
@@ -23,11 +25,12 @@ function HomePage() {
             <Experience />
             <Skills />
             {/* <Certificate /> */}
-            <Projects />
+            {/* <Projects /> */}
             <Education />
-            <Blog />
+            {/* <Blog /> */}
             <Contacts />
         </div>
+        </Fade>
     )
 }
 

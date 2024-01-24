@@ -9,11 +9,13 @@ import {
     FaFacebook, FaGithub, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
+import Slide from 'react-reveal/Slide';
 
 function LandingUI({ theme, drawerOpen, classes }) {
 
 
     return (
+        <Slide Up>
         <div className='landing' style={{ backgroundColor: theme.quaternary }}>
             <div className='landing--container'>
                 <div
@@ -47,7 +49,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
-                        {contactsData.twitter && (
+                        {/* {contactsData.twitter && (
                             <a
                                 href={contactsData.twitter}
                                 target='_blank'
@@ -72,7 +74,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     aria-label='facebook'
                                 />
                             </a>
-                        )}
+                        )} */}
                     </div>
                 </div>
                 <img
@@ -135,6 +137,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                 </div>
             </div>
         </div>
+        </Slide>
     );
 }
 
