@@ -1,5 +1,5 @@
 import React, { Suspense, useContext } from 'react';
-import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import './app.css';
